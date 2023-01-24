@@ -26,10 +26,10 @@ spring:
         #  uri: https://omdbapi.com
         #  predicates:
         #    - Path=/**
-        - id: OmdbAPIByTitleOrID
-          uri: https://omdbapi.com
-          predicates:
-             - Path=/**
+        #- id: OmdbAPIByTitleOrID
+        #  uri: https://omdbapi.com
+        #  predicates:
+        #     - Path=/**
         - id: SpotifyAPIAlbums
           uri: https://api.spotify.com
           predicates:
